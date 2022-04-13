@@ -1,0 +1,29 @@
+### 
+GET http://localhost:4000/api/items
+
+
+### 
+POST http://localhost:4000/api/items
+
+Content-Type: application/json
+
+{
+    "name": "item0",
+    "cant": 0
+}
+
+### 
+GET http://localhost:4000/api/items/6256f3fcd69ebf4b1f66e606
+
+
+### 
+PUT http://localhost:4000/api/items/6256f3fcd69ebf4b1f66e606
+Content-Type: application/json
+
+{
+    "name": "item"
+}
+
+
+### 
+DELETE http://localhost:4000/api/items/6256f36f232718c5260c7577
